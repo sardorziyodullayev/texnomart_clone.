@@ -1,0 +1,84 @@
+.installmentInfoTitle {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+.installmentInfo {
+    margin: 50px 0;
+}
+
+.swiperList {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+    list-style: none;
+}
+
+.mobileSwiperList {
+    display: none;
+    padding: 30px 0;
+}
+
+.mobileSwiperItem {
+    text-align: center;
+}
+
+.mobileText {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.swiperItem {
+    height: 160px;
+    width: 20%;
+    padding: 0 16px;
+    min-height: 160px;
+    text-align: center;
+}
+
+.imageBox {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiperTitle {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.swiperText {
+    max-width: 225px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333;
+}
+
+.swiperLine {
+    width: 1px;
+    height: 160px;
+    background-color: #ececec;
+}
+
+@media screen and (max-width: 980px) {
+    .mobileSwiperList {
+        display: block;
+    }
+
+    .swiperList {
+        display: none;
+    }
+}

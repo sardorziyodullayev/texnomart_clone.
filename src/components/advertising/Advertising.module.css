@@ -1,0 +1,79 @@
+.advertisingWrapper {
+    padding: 0 60px 0 80px;
+    margin: 60px 0 68px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    background-color: #f7f7f7;
+}
+
+.advertisingLeft {
+    max-width: 475px;
+    width: 100%;
+}
+
+.advertisingRight {
+    padding: 50px 0;
+    max-width: 420px;
+}
+
+.advertisingTitle {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 140%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.advertisingText {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.infoQuar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.code {
+    width: 112px;
+    height: 112px;
+    margin: 0 24px 0 0;
+}
+
+.text {
+    max-width: 180px;
+    font-size: 16px;
+    color: #333;
+}
+
+@media screen and (max-width: 1110px) {
+    .advertisingRight {
+        max-width: 380px;
+    }
+    .advertisingTitle {
+        font-size: 28px;
+        line-height: 100%;
+    }
+    .advertisingText {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .code {
+        width: 90px;
+        height: 90px;
+    }
+    .text {
+        max-width: 140px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .advertisingWrapper {
+        display: none;
+    }
+}

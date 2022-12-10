@@ -1,0 +1,15 @@
+.heroBannerSwiper {
+    max-width: 1450px;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.heroSliderImg {
+    width: 100%;
+}
+
+.swiper{
+    margin-top: 100px;
+}

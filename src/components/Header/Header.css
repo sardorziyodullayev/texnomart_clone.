@@ -1,0 +1,61 @@
+.appBar {
+    box-shadow: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #F7F7F7;
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.siteName {
+    font-weight: 700;
+}
+
+.selectAndInput {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2px;
+    background: white;
+    border-radius: 7px;
+}
+
+.inputBar {
+    display: flex;
+    /* flex: 0.9; */
+    padding: 2px;
+    background: #fbc100;
+    border-radius: 10px;
+}
+
+.mic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #b1b1b1;
+}
+
+.search {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerIconsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerIconsContainer {
+    width: max-content;
+    flex-wrap: nowrap;
+}
